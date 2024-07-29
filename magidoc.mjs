@@ -35,7 +35,7 @@ export default {
              *
              * @default undefined
              */
-            siteRoot: '/suyeon-jung-dev/litmus-api-docs',
+            // siteRoot: '/litmus/graphql/v3.1.0',
 
             /**
              * Customizes the website meta tags in the header of the HTML pages.
