@@ -1,3 +1,9 @@
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 export default {
     introspection: {
         type: 'url',
@@ -5,6 +11,7 @@ export default {
     },
     website: {
         template: 'carbon-multi-page',
+        staticAssets: path.join(__dirname, '/assets'),
         output: './docs',
         options: {
             appTitle: 'ChaosCenter API Documentation',
