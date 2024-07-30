@@ -12,7 +12,7 @@ export default {
     website: {
         template: 'carbon-multi-page',
         staticAssets: path.join(__dirname, '/assets'),
-        output: './docs',
+        // output: './docs',
         options: {
             appTitle: 'ChaosCenter API Documentation',
 
