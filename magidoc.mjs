@@ -5,7 +5,7 @@ export default {
     },
     website: {
         template: 'carbon-multi-page',
-        // output: './docs',
+        output: './docs',
         options: {
             appTitle: 'ChaosCenter API Documentation',
 
