@@ -35,7 +35,7 @@ export default {
              *
              * @default undefined
              */
-            siteRoot: '/litmus-api-docs',
+            // siteRoot: '/litmus-api-docs',
 
             /**
              * Customizes the website meta tags in the header of the HTML pages.
