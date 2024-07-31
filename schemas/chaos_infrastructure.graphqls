@@ -640,7 +640,7 @@ extend type Mutation {
   kubeObj(request: KubeObjectData!): String!
 }
 
-extend type Subscription {
+type Subscription {
   # INFRA OPERATIONS
   """
   Listens infra events from the graphql server
