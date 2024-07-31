@@ -6,8 +6,8 @@ const __dirname = path.dirname(__filename);
 
 export default {
     introspection: {
-        type: 'url',
-        url: 'http://localhost:8080/query',
+        type: 'sdl',
+        paths: ['./schemas/**/*.graphqls'],
     },
     website: {
         template: 'carbon-multi-page',
